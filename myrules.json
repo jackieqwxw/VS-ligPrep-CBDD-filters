@@ -1,0 +1,63 @@
+{
+    "HBA": [
+        0,
+        12
+    ],
+    "HBD": [
+        0,
+        5
+    ],
+    "MW": [
+        300,
+        600
+    ],
+    "LogP": [
+        1.00001,
+        5.99999
+    ],
+    "RotBond": [
+        0,
+        12
+    ],
+    "Hydrazone": [
+        0,
+        0
+    ],
+    "FusedRing": [
+        0,
+        3
+    ],
+    "Carboxyl": [
+        0,
+        1
+    ],
+    "Amino": [
+        0,
+        2
+    ],
+    "CarboxAmino": [
+        0,
+        1
+    ],
+    "Chiral": [
+        0,
+        2
+    ],
+    "Cycle": [
+        1,
+        9999
+    ],
+    "AliphChain": [
+        0,
+        5
+    ],
+    "Rule_BMS": false,
+    "Rule_Dundee": false,
+    "Rule_Glaxo": false,
+    "Rule_Inpharmatica": false,
+    "Rule_LINT": false,
+    "Rule_MLSMR": false,
+    "Rule_PAINS": false,
+    "Rule_SureChEMBL": false,
+    "Rule_CBDD": true
+}
