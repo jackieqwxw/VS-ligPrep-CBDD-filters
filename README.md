@@ -1,5 +1,5 @@
 ## VS-ligPrep-CBDD-filters
-This tool assits in applied modified Lipinski's Rule of 5 and our CBDD stuctural alerts before virtural screening.
+This tool assits in applying the modified Lipinski's Rule of 5 and our CBDD stuctural alerts before virtural screening.
 
 This is a modifed version of [rd_filters.py](https://github.com/PatWalters/rd_filters/tree/master/rd_filters). We added additional properties and CBDD structural alerts into `alert_collection.csv` file to generate new filters.
 
@@ -20,4 +20,4 @@ Run the script:
 python3 new_filters.py filter --in input.smi --prefix output --rules myrules.json --alert alert_collection.csv --np 4
 ```
 
-The file `myrules.json` contains the property parameters, adjust the parameters accorrding to your need. If you prefer to use CBDD structural alert, then set the option`"Rule_CBDD"` to true.
+The file `myrules.json` contains the property parameters, adjust the parameters accordingly. If you prefer to use CBDD structural alert, then set the option`"Rule_CBDD"` to true.
