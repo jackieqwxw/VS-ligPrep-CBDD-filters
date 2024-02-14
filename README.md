@@ -15,6 +15,11 @@ Activate RDKit envirionment:
 conda activate rdkit-tools
 ```
 
+Install RDKit:
+```
+conda install -c conda-forge rdkit
+```
+
 Run the script:
 ```
 python3 new_filters.py filter --in input.smi --prefix output --rules myrules.json --alert alert_collection.csv --np 4
